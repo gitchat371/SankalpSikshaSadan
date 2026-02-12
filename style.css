@@ -1,4 +1,4 @@
-/* General Reset */
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,19 +9,20 @@
 /* Containers */
 .container {
     width: 90%;
-    max-width: 700px;
+    max-width: 650px;
     margin: auto;
 }
 
 /* Header */
 header {
-    background-color: #0a8f3d;
+    background-color: #00bfff; /* Sky blue */
     color: white;
     text-align: center;
     padding: 30px 0;
 }
 
-header h1 {
+header .school-name {
+    color: red; /* Red school name */
     font-size: 28px;
     margin-bottom: 5px;
 }
@@ -32,7 +33,7 @@ header p {
 
 /* Navigation */
 nav {
-    background-color: #066e2d;
+    background-color: #00bfff; /* Sky blue */
 }
 
 nav .container {
@@ -63,7 +64,7 @@ section {
 }
 
 section h2 {
-    color: #0a8f3d;
+    color: #00bfff;
     margin-bottom: 15px;
 }
 
@@ -82,7 +83,7 @@ section h2 {
     padding-left: 20px;
 }
 
-/* Form */
+/* Form Fields - smaller width */
 form .form-group {
     margin-bottom: 12px;
 }
@@ -95,17 +96,18 @@ form label {
 
 form input,
 form select {
-    width: 100%;
-    padding: 8px;
+    width: 90%;   /* chhote size */
+    padding: 6px; /* smaller padding */
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 14px;
 }
 
+/* Button */
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #0a8f3d;
+    width: 50%;   /* chhota button */
+    padding: 8px;
+    background-color: #00bfff; /* sky blue */
     color: white;
     border: none;
     border-radius: 5px;
@@ -115,7 +117,7 @@ button {
 }
 
 button:hover {
-    background-color: #066e2d;
+    background-color: #009acd; /* darker sky blue */
 }
 
 /* Message */
@@ -128,7 +130,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #0a8f3d;
+    background-color: #00bfff; /* Sky blue */
     color: white;
     text-align: center;
     padding: 15px 0;
