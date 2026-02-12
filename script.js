@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    // Dropdown toggle
+    // Dropdown toggle for Facilities & Services
     const dropdowns = document.querySelectorAll(".dropdown-btn");
     dropdowns.forEach(btn => {
         btn.addEventListener("click", function() {
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Form submit message
+    // Form submit
     const form = document.getElementById("admissionForm");
     if(form){
         form.addEventListener("submit", function(event){
