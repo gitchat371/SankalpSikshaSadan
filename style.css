@@ -27,30 +27,39 @@ nav a {
 section {
     padding: 20px;
     background: white;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 10px;
+    width: 80%;
 }
 
 h2 {
     color: #004aad;
 }
 
+/* 🔽 Input field chhote kiye */
 form input, form select {
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
+    width: 300px;
+    padding: 8px;
+    margin: 8px 0;
+    display: block;
 }
 
 button {
     background-color: #004aad;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #002f6c;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
 }
 
 footer {
