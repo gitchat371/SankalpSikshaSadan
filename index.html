@@ -15,25 +15,45 @@
     </div>
 </header>
 
+<!-- Navigation with dropdowns -->
 <nav>
-    <div class="container">
-        <a href="#about">About</a>
-        <a href="#facilities">Facilities</a>
-        <a href="#services">Services</a>
-        <a href="#admission">Admission</a>
-        <a href="#contact">Contact Us</a>
+    <div class="container nav-container">
+        <div class="dropdown">
+            <button class="dropbtn">Contact Us</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Email: <span id="email"> </span></li>
+                    <li>Phone: <span id="phone"> </span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Facilities</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Smart Classrooms</li>
+                    <li>Sports Ground</li>
+                    <li>Clean Drinking Water</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Qualified Teachers</li>
+                    <li>Extra Curricular Activities</li>
+                    <li>Regular Parent Meetings</li>
+                    <li>Safe Environment</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </nav>
 
-<!-- Contact Us Section Above Admission Form -->
-<section id="contact">
-    <div class="container">
-        <h2>Contact Us</h2>
-        <p>Email: <span id="email"> </span></p>
-        <p>Phone: <span id="phone"> </span></p>
-    </div>
-</section>
-
+<!-- About Section -->
 <section id="about">
     <div class="container">
         <h2>About Our School</h2>
@@ -41,33 +61,7 @@
     </div>
 </section>
 
-<section id="facilities">
-    <div class="container">
-        <h2 class="dropdown-btn">Facilities ▼</h2>
-        <div class="dropdown-content">
-            <ul>
-                <li>Smart Classrooms</li>
-                <li>Sports Ground</li>
-                <li>Clean Drinking Water</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="services">
-    <div class="container">
-        <h2 class="dropdown-btn">Services ▼</h2>
-        <div class="dropdown-content">
-            <ul>
-                <li>Qualified Teachers</li>
-                <li>Extra Curricular Activities</li>
-                <li>Regular Parent Meetings</li>
-                <li>Safe Environment</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
+<!-- Admission Form Section -->
 <section id="admission">
     <div class="container">
         <h2>Admission Form</h2>
