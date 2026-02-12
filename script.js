@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Form submit
+    // Form submit message
     const form = document.getElementById("admissionForm");
     if(form){
         form.addEventListener("submit", function(event){
