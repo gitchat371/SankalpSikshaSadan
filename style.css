@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-/* Containers */
+/* Container */
 .container {
     width: 90%;
     max-width: 650px;
@@ -87,13 +87,13 @@ section h2 {
 form label {
     display: block;
     font-weight: bold;
-    margin: 8px 0 4px;
+    margin: 6px 0 4px;
 }
 
 form input,
 form select {
-    width: 80%;  /* chhota input */
-    padding: 6px; /* small padding */
+    width: 70%;  /* smaller width */
+    padding: 5px; /* small padding */
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 14px;
@@ -103,7 +103,7 @@ form select {
 
 /* Button */
 button {
-    padding: 8px 16px; /* smaller button */
+    padding: 8px 16px;
     background-color: #00bfff;
     color: white;
     border: none;
