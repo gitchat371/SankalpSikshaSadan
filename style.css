@@ -24,51 +24,53 @@ nav a {
     color: white;
     margin: 15px;
     text-decoration: none;
-    font-size: 16px;
 }
 
 /* Section */
 section {
     background: white;
-    width: 60%;
+    width: 600px;
+    max-width: 90%;
     margin: 30px auto;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h2 {
-    color: #004aad;
-}
-
-/* Form Proper Layout */
+/* Form container */
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
 }
 
-/* Input Fields Proper Size */
+/* Label */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* All input and select same size */
 form input,
 form select {
-    width: 80%;
-    max-width: 400px;
+    width: 100%;
     padding: 10px;
-    margin: 8px 0;
+    margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 /* Button */
 button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
     background-color: #004aad;
     color: white;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 button:hover {
@@ -86,7 +88,4 @@ button:hover {
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
-    background-color: #004aad;
-    color: white;
-}
+    padding:
