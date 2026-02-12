@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
     background-color: #f2f2f2;
 }
 
@@ -13,17 +12,18 @@ header {
     padding: 20px;
 }
 
-/* Navigation */
+/* Navigation - GREEN */
 nav {
-    background-color: #333;
+    background-color: #0a8f3d;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
 }
 
 nav a {
     color: white;
     margin: 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* Section */
@@ -31,25 +31,29 @@ section {
     background: white;
     width: 600px;
     max-width: 90%;
-    margin: 30px auto;
-    padding: 25px;
+    margin: 20px auto;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Form container */
-form {
-    width: 100%;
+/* Dropdown Style */
+.dropdown-btn {
+    cursor: pointer;
+    color: #0a8f3d;
 }
 
-/* Label */
+.dropdown-content {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Form */
 form label {
     display: block;
     margin-top: 10px;
-    font-weight: bold;
 }
 
-/* All input and select same size */
 form input,
 form select {
     width: 100%;
@@ -57,16 +61,13 @@ form select {
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 14px;
-    box-sizing: border-box;
 }
 
-/* Button */
 button {
     width: 100%;
     margin-top: 15px;
     padding: 10px;
-    background-color: #004aad;
+    background-color: #0a8f3d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -74,18 +75,12 @@ button {
 }
 
 button:hover {
-    background-color: #002f6c;
+    background-color: #066e2d;
 }
 
-/* Message */
-#message {
-    margin-top: 10px;
-    font-weight: bold;
-    color: green;
-    text-align: center;
-}
-
-/* Footer */
 footer {
     text-align: center;
-    padding:
+    padding: 15px;
+    background-color: #0a8f3d;
+    color: white;
+}
