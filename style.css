@@ -83,7 +83,7 @@ section h2 {
     padding-left: 20px;
 }
 
-/* Form Fields - small and neat */
+/* Form Fields */
 form label {
     display: block;
     font-weight: bold;
@@ -92,8 +92,8 @@ form label {
 
 form input,
 form select {
-    width: 70%;  /* smaller width */
-    padding: 5px; /* small padding */
+    width: 70%;  /* small width */
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 14px;
