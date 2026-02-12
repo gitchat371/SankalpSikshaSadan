@@ -6,7 +6,6 @@
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-/* Container */
 .container {
     width: 90%;
     max-width: 650px;
@@ -22,7 +21,7 @@ header {
 }
 
 header .school-name {
-    color: red; /* Red school name */
+    color: red;
     font-size: 28px;
     margin-bottom: 5px;
 }
@@ -33,25 +32,59 @@ header p {
 
 /* Navigation */
 nav {
-    background-color: #00bfff; /* Sky blue */
+    background-color: #00bfff;
 }
 
-nav .container {
+.nav-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px 0;
 }
 
-nav a {
-    color: white;
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
     margin: 5px 15px;
-    text-decoration: none;
-    font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.dropbtn {
+    background-color: #00bfff;
+    color: white;
+    padding: 8px 12px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover {
+    background-color: #009acd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dropdown-content li {
+    padding: 5px 0;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Sections */
@@ -68,21 +101,6 @@ section h2 {
     margin-bottom: 15px;
 }
 
-/* Dropdown */
-.dropdown-btn {
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none;
-    padding-left: 15px;
-}
-
-.dropdown-content ul {
-    list-style: disc;
-    padding-left: 20px;
-}
-
 /* Form Fields */
 form label {
     display: block;
@@ -92,7 +110,7 @@ form label {
 
 form input,
 form select {
-    width: 70%;  /* small width */
+    width: 70%;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -101,7 +119,6 @@ form select {
     display: block;
 }
 
-/* Button */
 button {
     padding: 8px 16px;
     background-color: #00bfff;
@@ -117,7 +134,6 @@ button:hover {
     background-color: #009acd;
 }
 
-/* Message */
 #message {
     margin-top: 10px;
     font-weight: bold;
@@ -127,7 +143,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #00bfff; /* Sky blue */
+    background-color: #00bfff;
     color: white;
     text-align: center;
     padding: 15px 0;
